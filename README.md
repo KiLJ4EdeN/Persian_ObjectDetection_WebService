@@ -24,6 +24,12 @@ How to Use:
 
 2 - Install the required libraries.
 
+3 - Download Yolov3 Weights and put them in the main directory.
+
+Yolov3(416) https://pjreddie.com/media/files/yolov3.weights
+
+Look up https://pjreddie.com/darknet/yolo/ for more info on different versions of yolo.
+
 3 - Run Persian_ObjectDetection_WebService.py.
 
 4 - Refer to the application root to get started.
