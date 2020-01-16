@@ -71,7 +71,7 @@ def Predict(imagePath):
     if (imagePath):
         frame = cv2.imread(imagePath)
         #print(frame.shape)
-        outputFile = imagePath[:-4]+'_Smart_Refrigrator.jpg'
+        outputFile = imagePath[:-4]+'_Object_Detector.jpg'
 
 
         picture = Image.fromarray(frame)
