@@ -17,7 +17,7 @@ APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 @app.route("/")
 def index():
-    return render_template("upload.html")
+    return render_template("index.html")
 
 
 @app.route("/upload", methods=["POST"])
@@ -45,7 +45,7 @@ def upload():
     out_image = cv2.imwrite(os.path.join(execution_path,  "flask"+filename), image)
     print('wrote out the image')
     print('flask'+filename)
-    return render_template("complete_display_image.html", image_name="flask"+filename)
+    return render_template("Persian_ObjectDetection_WebService.html", image_name="flask"+filename)
 
 
 @app.route('/upload/<filename>')
